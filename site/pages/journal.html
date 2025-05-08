@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoTrade Framework - Журнал</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../alg_logo.ico" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AlgoTrade Framework</h1>
+            <p>Фреймворк для алгоритмической торговли на финансовых рынках</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="team.html">Участники</a></li>
+                <li><a href="journal.html" class="active">Журнал</a></li>
+                <li><a href="resources.html">Ресурсы</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <br>
+        <section id="progress-journal">
+            <h2>Журнал прогресса</h2>
+            <p>Здесь публикуются новости о ходе разработки проекта и достигнутых результатах.</p>
+            
+            <article class="journal-entry">
+                <div class="entry-header">
+                    <h3>Выбран технологический стэк для разработки</h3>
+                    <time datetime="2025-03-5">15 марта 2025</time>
+                </div>
+                <img src="../images/Python.png" alt="Разработка API" class="float-right">
+                <p>Сегодня мы определились с инструментами для реализации нашего ПО. Основные достижения:</p>
+                <ul>
+                    <li>Выбран язык программирования - Python</li>
+                    <li>Выбран framework - Backtrader для удобства написания стратегий</li>
+                    <li>Совместная работа будет вестить в репозитории github</li>
+                </ul>
+                <p>Теперь мы можем приступать к разработке стратегий. Следующий этап - создание модуля бэктестинга.</p>
+                <div class="entry-footer">
+                    <span class="author">Буянов Петр</span>
+                </div>
+            </article>
+            
+            <article class="journal-entry">
+                <div class="entry-header">
+                    <h3>Первая успешная стратегия</h3>
+                    <time datetime="2025-03-10">10 марта 2025</time>
+                </div>
+                <img src="../images/RSI.png" alt="Тестирование стратегии" class="float-right">
+                <p>Наша первая тестовая стратегия показала положительные результаты на исторических данных!</p>
+                <p>Стратегия основана на комбинации скользящих средних и RSI индикатора. В ходе тестирования на данных за 2022 год стратегия показала доходность 23% с максимальной просадкой 8%.</p>
+                <p>Ключевые показатели:</p>
+                <table>
+                    <tr>
+                        <th>Показатель</th>
+                        <th>Значение</th>
+                    </tr>
+                    <tr>
+                        <td>Доходность</td>
+                        <td>23%</td>
+                    </tr>
+                    <tr>
+                        <td>Максимальная просадка</td>
+                        <td>8%</td>
+                    </tr>
+                    <tr>
+                        <td>Коэффициент Шарпа</td>
+                        <td>1.45</td>
+                    </tr>
+                    <tr>
+                        <td>Процент прибыльных сделок</td>
+                        <td>62%</td>
+                    </tr>
+                </table>
+                <p>Следующий шаг - оптимизация параметров стратегии и тестирование на других временных периодах.</p>
+                <div class="entry-footer">
+                    <span class="author">Дорофеева Мария</span>
+                </div>
+            </article>
+            
+            <article class="journal-entry">
+                <div class="entry-header">
+                    <h3>Разработка торговых стратегий</h3>
+                    <time datetime="2025-04-23">23 апреля 2025</time>
+                </div>
+                <img src="../images/Визуализация.png" alt="Графики торговых стратегий" class="float-right">
+                <p>На текущем этапе мы разработали и протестировали 5 уникальных торговых стратегий с использованием исторических данных за несколько лет.</p>
+                <p>Ключевые достижения:</p>
+                <ul>
+                    <li>Реализация различных подходов: трендовые, mean-reversion и арбитражные стратегии</li>
+                    <li>Полноценная визуализация результатов тестирования для каждой стратегии</li>
+                    <li>Интеграция с обширной базой рыночных данных</li>
+                </ul>
+                <p>Тестирование показало стабильную работу всех алгоритмов. Особое внимание было уделено анализу equity-кривых и распределению сделок.</p>
+                <p>Следующим шагом будет внедрение системы управления рисками и оптимизация параметров стратегий.</p>
+                <div class="entry-footer">
+                    <span class="author">Масютин Илья</span>
+                </div>
+            </article>
+        </section>
+        <br>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 AlgoTrade Framework Team. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
