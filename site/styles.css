@@ -638,3 +638,52 @@ tr:hover {
 #project-details {
     margin-top: 1rem; /* Отступ сверху */
 }
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 30px auto;
+}
+.timeline-item {
+    padding: 20px 0;
+    position: relative;
+}
+.timeline-content {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.timeline-date {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.tech-badge {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin: 3px;
+    font-size: 0.8em;
+}
+
+.certificate {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+}
+    
+.certificate img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+    
+.certificate p {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+}
